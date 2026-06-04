@@ -1,0 +1,17 @@
+{
+  "name": "morning-briefing-server",
+  "version": "1.0.0",
+  "description": "Morning Briefing Server für Claude API mit Web Search",
+  "main": "briefing-server.js",
+  "scripts": {
+    "start": "node briefing-server.js",
+    "dev": "node briefing-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "keywords": ["briefing", "claude", "api"],
+  "author": "",
+  "license": "MIT"
+}
